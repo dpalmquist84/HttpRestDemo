@@ -1,0 +1,28 @@
+{
+  "name": "httprestdemo",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpalmquist84/HttpRestDemo.git"
+  },
+  "keywords": [
+    "HTTP",
+    "Rest",
+    "Demo"
+  ],
+  "author": "David S. Palmquist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpalmquist84/HttpRestDemo/issues"
+  },
+  "homepage": "https://github.com/dpalmquist84/HttpRestDemo#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
