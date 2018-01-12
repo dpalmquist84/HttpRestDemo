@@ -1,0 +1,20 @@
+   .parallax {
+       /* The image used */
+      
+       /* Set a specific height */
+       height: 100%;
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+
+.jumbotron {
+    text-align: center;
+    opacity: .5;
+}
+
+body {
+    background-image: url("Website-Design-Background.png")
+}

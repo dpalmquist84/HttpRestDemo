@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/dpalmquist84/HttpRestDemo#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2"
   }
 }
