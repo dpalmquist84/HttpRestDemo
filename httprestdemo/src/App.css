@@ -26,3 +26,7 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#root {
+  background: url("https://openclipart.org/image/2400px/svg_to_png/171195/progammer.png");
+}
