@@ -8,13 +8,13 @@ const Navpills = () =>
             <Link to="/">Home</Link>
         </li>
         <li className={window.location.pathname === "/rest" ? "active" : ""}>
-            <Link to="/rest">rest</Link>
+            <Link to="/rest">REST</Link>
         </li>
         <li className={window.location.pathname === "/http" ? "active" : ""}>
-            <Link to="/http">http</Link>
+            <Link to="/http">HTTP</Link>
         </li>
         <li className={window.location.pathname === "/soap" ? "active" : ""}>
-            <Link to="/soap">soap</Link>
+            <Link to="/soap">SOAP</Link>
         </li>
      
     </ul>;
