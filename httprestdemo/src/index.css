@@ -2,4 +2,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: #91c2bb;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.jumbotron {
+  background: #f7eed0;
 }

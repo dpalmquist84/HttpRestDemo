@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './style.css'
 
+
 const Navpills = () =>
     <ul className="nav nav-tabs">
-        <li className={window.location.pathname === "/" ? "active" : ""}>
+        <li className={window.location.ulathname === "/" ? "active" : ""}>
             <Link to="/">Home</Link>
         </li>
         <li className={window.location.pathname === "/rest" ? "active" : ""}>
@@ -17,6 +18,6 @@ const Navpills = () =>
             <Link to="/soap">SOAP</Link>
         </li>
      
-    </ul>;
+    </ul>
 
 export default Navpills;

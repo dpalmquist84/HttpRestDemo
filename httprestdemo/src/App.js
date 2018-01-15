@@ -5,6 +5,8 @@ import Home from "./components/pages/Home";
 import rest from "./components/pages/rest";
 import http from "./components/pages/http";
 import soap from "./components/pages/soap";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 const App = () =>
   <Router>
